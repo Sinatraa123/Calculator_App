@@ -1,0 +1,51 @@
+#gp{
+    /* border: 1px solid; */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    border: 1px solid;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding: 50px;
+    justify-content: center;
+    align-content: space-around;
+    border-radius: 10px;
+    background-color: rgb(77, 77, 77);
+    /* cursor: pointer; */
+}
+
+.box{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: "Bowlby One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    cursor: pointer;
+    background-color: grey;
+}
+
+#box-1{
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    background-color: white;
+}
+
+#box-15{
+   
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+#box-16{
+    background-color: orange;
+}
